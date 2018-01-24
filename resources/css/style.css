@@ -27,6 +27,7 @@
   flex-grow: 1;
   align-items: center;
   color: MediumAquamarine;
+  border: 1px solid black;
 }
 
 .logo span{
@@ -37,6 +38,36 @@
   padding-right: 40px;
 }
 
-.container{
-  dsiplay: flex;
+.main{
+  display: flex;
+  padding-top: 116px;
+  border: 1px solid black;
+  width: 1232px;
+  margin: 0px auto 78px auto;
+}
+
+.column.large,
+.column.medium,
+.column.small,
+.image-content,
+.lead-story,
+.text-content{
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.column.large{
+  margin-right: 32px;
+  width: 630px;
+}
+
+.column.medium{
+  margin-right: 32px;
+  width: 300px;
+}
+
+.column.small{
+  margin-right: 32px;
+  width: 240px;
 }
