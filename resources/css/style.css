@@ -1,3 +1,4 @@
+/*Start of the header styling*/
 .header-nav span{
   display: inline-block;
   padding: 20px 10px;
@@ -37,37 +38,40 @@
 .nav{
   padding-right: 40px;
 }
+/*end of the header styling*/
+/*Start of the main body content styling*/
 
-.main{
+.container{
   display: flex;
-  padding-top: 116px;
+  width: 1260px;
   border: 1px solid black;
-  width: 1232px;
+  padding-top: 117px;
   margin: 0px auto 78px auto;
 }
 
 .column.large,
 .column.medium,
-.column.small,
-.image-content,
-.lead-story,
-.text-content{
+.column.small{
   display: flex;
   border: 1px solid black;
+  margin-right: 35px;
   flex-direction: column;
 }
 
-.column.large{
-  margin-right: 32px;
+.image-content,
+.story,
+.text-content{
+  border: 1px solid black;
+}
+
+.column.large {
   width: 630px;
 }
 
-.column.medium{
-  margin-right: 32px;
+.column.medium {
   width: 300px;
 }
 
-.column.small{
-  margin-right: 32px;
+.column.small {
   width: 240px;
 }
