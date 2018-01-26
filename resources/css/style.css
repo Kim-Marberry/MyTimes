@@ -31,7 +31,6 @@
   flex-grow: 1;
   align-items: center;
   color: MediumAquamarine;
-  border: 1px solid black;
 }
 
 .logo span{
@@ -47,7 +46,6 @@
 .container{
   display: flex;
   width: 1260px;
-  border: 1px solid black;
   padding-top: 117px;
   margin: 0px auto 78px auto;
 }
@@ -56,15 +54,24 @@
 .column.medium,
 .column.small{
   display: flex;
-  border: 1px solid black;
   margin-right: 35px;
   flex-direction: column;
 }
 
-.image-content,
-.story,
-.text-content{
-  border: 1px solid black;
+.stories{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.story
+{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
 }
 
 .text-content,
