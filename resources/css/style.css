@@ -2,6 +2,8 @@
 .header-nav span{
   display: inline-block;
   padding: 20px 10px;
+  position: relative;
+  right: 30px;
 }
 
 .header-nav span a{
@@ -24,6 +26,7 @@
 
 .logo{
   display: flex;
+  position: relative;
   padding-left: 30px;
   flex-grow: 1;
   align-items: center;
@@ -62,6 +65,41 @@
 .story,
 .text-content{
   border: 1px solid black;
+}
+
+.text-content,
+.lead-story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.main-story.image-content{
+  background-image: url("../images/img-story-main.png");
+  height: 300px;
+  font-size: 40px;
+}
+
+.fall-cancelled.image-content{
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+}
+
+.pop-culture.image-content{
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+}
+
+.cat-ceo.image-content{
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
 }
 
 .column.large {
